@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Catering Business</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="cook.jfif" type="image/x-icon">
+  </head>
+  <body>
+    <div class="sticky">
+      Please place ur oder
+    </div>
+    <h1>Ramanavel Catering Business</h1>
+    <img class="topcookimg" src="cook2.jfif" alt="cooking">
+    <h3>Veg and Non-Veg Dishes</h3>
+    <img  class="rightcookimg"src="cook1.jfif" alt="cooking">
+    <div class="middle">
+      <form action="billing.html" method="post" enctype="text/plain">
+      <label>Your Name: </label>
+      <input type="text" name="YourName:" value=""><br>
+      <label>Phone Number: </label>
+      <input type="text" name="Phonenumber:" value="" maxlength="10" pattern="[0-9]+"><br>
+      <label>Address: </label>
+      <textarea name="Address:" rows="1" cols="20"></textarea><br>
+      <label>Date and Time of order:</label>
+      <input type="datetime-local" name="Date-time:" value=""><br>
+      <label for="Veg">Items:</label>
+        <select name="veg-items" id="veg-item-select">
+        <option value="">--Please choose an option--</option>
+        <option value="Kesadi">Kesadi</option>
+        <option value="Idhli">Idhli</option>
+        <option value="Dosa">Dosa</option>
+      </select><br>
+      <label>Quantity:</label>
+      <input class="Quantity" type="number" name="Quantity:" value=""><br>
+      <input class="submit" type="submit" value="submit">
+    </div>
+  </form>
+  <div class="bottom">
+    <h2>About Us</h2>
+    <p>We are currently business in our home at Erode with lot hygiens and take more safety measures.We will delivery your items on time.</p>
+  </div>
+  <div class="bottom-right">
+    <h2>Pricing</h2>
+    <p>Most of the items are resonable and tasty like 5 star hotel.</p>
+  </div>
+  <div class="copyright">
+    <p>copyright Ramanavel Catering</p>
+  </div>
+  </body>
+</html>
